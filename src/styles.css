@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Rubik";
+}
+
+body {
+    background-image: url(./img/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body * {
+    font-size: 1.5rem;
+    color: #010101;
+}
+
+.box-main {
+    background-color: #f2f2f2;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px #0101016b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-main .title {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.box-main input {
+    padding: 0.1rem;
+}
+
+.box-main #form-equacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: nowrap;
+    height: 150px;
+}
+
+.box-main span {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.box-main .equacao input {
+    size: 2px;
+}
+
+.box-main #form-equacao #button {
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: #01010169 solid 0.1px;
+    border-radius: 10px;
+}
+
+.box-main #form-equacao #button:hover {
+    background-color: #e0e0e0;
+    text-decoration: underline;
+}
